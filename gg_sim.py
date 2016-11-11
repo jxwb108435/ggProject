@@ -1,7 +1,5 @@
-# ！usr/bin/python
 # coding=utf-8
 # -*- coding:cp936 -*-
-# import time
 import pandas as pd
 import matplotlib.pyplot as plt
 import matplotlib.animation as animation
