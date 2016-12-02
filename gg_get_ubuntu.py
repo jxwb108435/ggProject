@@ -10,7 +10,16 @@ import datetime
 
 # 启动浏览器
 print("...开始加载浏览器")
+
+# ubuntu
 driver = webdriver.Chrome()
+
+# windows
+# import os
+# chromedriver = "C:\Program Files (x86)\Google\Chrome\Application\chromedriver.exe"
+# os.environ["webdriver.chrome.driver"] = chromedriver
+# driver = webdriver.Chrome(chromedriver)
+
 print("...浏览器加载完成" + "\n")
 
 # 输入网页
